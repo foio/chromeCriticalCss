@@ -1,5 +1,5 @@
 {
-  "name": "@tencent/chrome-critical-css",
+  "name": "chrome-critical-css",
   "version": "0.1.3",
   "description": "Extract critical css using chrome and postcss.",
   "main": "critical.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "kellanzhang@tencent.com",
+  "author": "syszhpe@gmail.com",
   "license": "ISC",
   "dependencies": {
     "chrome-launcher": "^0.3.1",
