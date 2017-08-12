@@ -1,0 +1,22 @@
+{
+  "name": "@tencent/chrome-critical-css",
+  "version": "0.1.3",
+  "description": "Extract critical css using chrome and postcss.",
+  "main": "critical.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kellanzhang@tencent.com",
+  "license": "ISC",
+  "dependencies": {
+    "chrome-launcher": "^0.3.1",
+    "chrome-remote-interface": "^0.24.1",
+    "minimist": "^1.2.0",
+    "postcss": "^6.0.6",
+    "postcss-discard-duplicates": "^2.1.0"
+  },
+  "bin": {
+    "chromeCriticalCss": "bin/chromeCriticalCss.js"
+  }
+}
