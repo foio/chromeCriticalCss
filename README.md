@@ -1,28 +1,10 @@
 Extract critical css by using headless chrome through chrome debug protocol(CDP). Base on Chrome's code coverage functionality, introduced since version 59. Besides, the tool also extract relevant media query expressions.
 
-install globally:
-
-```
-tnpm install @tencent/chrome-critical-css -g
-```
-
-install locally:
-
-```
-tnpm install @tencent/chrome-critical-css --save
-```
-
-
-### command line
-
-```
-chromeCriticalCss https://live.html5.qq.com
-```
 
 ### api 
 
 ``` javascript
-const chromeCriticalCss = require('@tencent/chrome-critical-css');
+const chromeCriticalCss = require('chrome-critical-css');
 chromeCriticalCss('url-to-be-extract-css', 
 	{
 		deviceScaleFactor: 2,
